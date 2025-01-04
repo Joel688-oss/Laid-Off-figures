@@ -91,7 +91,7 @@ FROM layoffs_cuts2
 ORDER BY 1;
 
 # United States has an error as there is one with a full stop at the end so you have to group it all
-# you can easily use TRIM Trailing whihc takes out an item at the end of the words that are not needed.
+# you can easily use TRIM Trailing which takes out an item at the end of the words that are not needed.
 
 SELECT *
 FROM layoffs_cuts2
